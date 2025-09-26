@@ -54,13 +54,16 @@
 ### 2.3 Hasil Output Program
 
 •	GET http://localhost:3000/          : menampilkan NIM dan Nama
-#### Hasil Website
+#### <p style= "justify-content: center">Hasil Website  </p>
+#### <p> Pada menu utama, disediakan link untuk rute ke halaman-halaman lain sehingga pengguna tidak perlu mengganti manual halaman </p>
+
 ![alt text](documentation/mainPage.png)
-#### Hasil Postman
+#### Hasil Postman 
 ![alt text](documentation/postman_mainPage.png)
 
-•	GET http://localhost:3000/hitung    : menampilkan hasil penjumlahan
-#### Hasil Website
+•	GET http://localhost:3000/hitung    : menampilkan hasil perhitungan
+#### <p style= "justify-content: center">Hasil Website  </p>
+#### <p> Pada menu hitung, disediakan form sehingga angka bisa dinamis dari user dan dapat dicoba berkali-kali </p>
 ![alt text](documentation/hitung.png)
 ![alt text](documentation/hitung_2.png)
 #### Hasil Postman
