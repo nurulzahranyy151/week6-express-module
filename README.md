@@ -12,14 +12,15 @@
 
 ### 2.1 Hasil: Struktur Proyek
 📂 documentation: Screenshot output program
-📂 expressModule_F1D022150;
-    📂node_modules
-    📂public
-    📂routes
-    📂utils
-    📄 index.js
-    📦 package-lock.json
-    📦 package.json
+<br>
+📂 expressModule_F1D022150<br>
+    📂node_modules<br>
+    📂public<br>
+    📂routes<br>
+    📂utils<br>
+    📄 index.js<br>
+    📦 package-lock.json<br>
+    📦 package.json<br>
 🛈 README.md
 
 
