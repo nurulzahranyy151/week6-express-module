@@ -30,7 +30,6 @@ app.get('/', (req, res) => {
 });
 
 
-
 app.get('/hitung', (req, res) => {
     const { a, b } = req.query; 
     
@@ -42,9 +41,8 @@ app.get('/hitung', (req, res) => {
     const hasilBagi = angka2 !== 0 ? math.bagi(angka1, angka2) : "Tidak bisa dibagi 0";
     const hasilKali = math.kali(angka1, angka2);
     const hasilModulo = angka2 !== 0 ? math.modulo(angka1, angka2) : "Tidak bisa modulo 0";
-
-    res.send(`
-    <!DOCTYPE html>
+    
+    res.send(`<!DOCTYPE html>
     <html>
     <head>
       <link rel="stylesheet" href="/style.css">
@@ -58,7 +56,7 @@ app.get('/hitung', (req, res) => {
         <button type="submit">Hitung</button>
       </form>
       <h2> Angka terakhir yang dimasukkan: ${angka1} dan ${angka2}</h2>
-      <h2> </h2> 
+
       <h3>Hasil Perhitungan:</h3>
       <p>Hasil penjumlahan: ${hasilTambah}</p>
       <p>Hasil pengurangan: ${hasilKurang}</p>
@@ -68,8 +66,7 @@ app.get('/hitung', (req, res) => {
 
       <a href="/" style="color:#1B3C53; text-decoration:none;">Kembali ke Menu Utama</a>
     </body>
-    </html>
-    `);
+    </html>`);
 });
 
 app.use('/profile', profileRouter);

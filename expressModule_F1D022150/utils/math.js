@@ -18,6 +18,4 @@ function modulo(a,b){
     return a%b;
 }
 
-
-
 module.exports = { tambah, kali, kurang, bagi, modulo };
