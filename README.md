@@ -11,27 +11,17 @@
 ## 📂 2. Hasil
 
 ### 2.1 Hasil: Struktur Proyek
-📂 documentation
+📂 documentation    : Screenshot output program
+<br>
+📂 expressModule_F1D022150<br>
+    📂node_modules       : Folder hasil command "npm install"yang berisi dependency dari project.<br>
+    📂public             : Fitur tambahan berupa interface yang lebih interaktif dan menarik<br>
+    📂routes             : Menyimpan route modular, yaitu profile.js untuk menampilkan profil pengguna.<br>
+    📂utils              : Menyimpan modul lokal untuk fungsi perhitungan, yaitu math.js<br>
+    📄 index.js          : App utama. File utama aplikasi, digunakan untuk inisialisasi Express, middleware, dan koneksi route.<br>
+    📦 package-lock.json : File yang mencatat versi detail dependency yang diinstall.<br>
+    📦 package.json      : File konfigurasi project (nama, versi, script, dependency)<br>
+🛈 README.md              : Dokumentasi
 
-Berisi screenshot output program.
 
-📂 expressModule_F1D022150
-
-📂 node_modules → Folder hasil command npm install yang berisi dependency project.
-
-📂 public → Menyimpan file untuk interface tambahan yang lebih interaktif (HTML, CSS, JS).
-
-📂 routes → Menyimpan route modular, misalnya:
-
-profile.js → Route untuk menampilkan profil pengguna.
-
-📂 utils → Menyimpan modul lokal untuk fungsi perhitungan, misalnya math.js.
-
-📄 index.js → File utama aplikasi. Digunakan untuk inisialisasi Express, middleware, dan koneksi route.
-
-📦 package-lock.json → Mencatat versi detail dependency yang diinstall.
-
-📦 package.json → File konfigurasi project (nama, versi, script, dependency).
-
-🛈 README.md → Dokumentasi proyek.
 
