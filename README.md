@@ -18,7 +18,7 @@
 ====📂public                : Fitur tambahan berupa interface yang lebih interaktif dan menarik<br>
 ====📂routes                : Menyimpan route modular, yaitu profile.js untuk menampilkan profil pengguna.<br>
 ====📂utils                 : Menyimpan modul lokal untuk fungsi perhitungan, yaitu math.js<br>
-====📄 index.js             : App utama. File utama aplikasi, digunakan untuk inisialisasi Express, middleware, dan koneksi route.<br>
+====📄 index.js             : App utama untuk inisialisasi Express, middleware, dan koneksi route.<br>
 ====📦 package-lock.json    : File yang mencatat versi detail dependency yang diinstall.<br>
 ====📦 package.json         : File konfigurasi project (nama, versi, script, dependency)<br>
 🛈 README.md                 : Dokumentasi
@@ -30,7 +30,7 @@
 
 🪪 Profil User               : Menampilkan data diri dari route modular.
  
-📥 Form Input                : Input angka yang ingin dihitung melalui form di public/index.html lalu hasil ditampilkan di browser.
+📥 Form Input                : Input angka yang ingin dihitung melalui form lalu hasil ditampilkan di browser.
 
 ✨ Interface                 : Tampilan sederhana agar lebih menarik, tidak hanya teks seperti CMD.
 
@@ -54,10 +54,27 @@
 ### 2.3 Hasil Output Program
 
 •	GET http://localhost:3000/          : menampilkan NIM dan Nama
+#### Hasil Website
+![alt text](documentation/mainPage.png)
+#### Hasil Postman
+![alt text](documentation/postman_mainPage.png)
 
 •	GET http://localhost:3000/hitung    : menampilkan hasil penjumlahan
+#### Hasil Website
+![alt text](documentation/hitung.png)
+![alt text](documentation/hitung_2.png)
+#### Hasil Postman
+![alt text](documentation/postman_hitung.png)
+
 •	GET http://localhost:3000/profile   : menampilkan JSON array profile
+#### Hasil Website
+![alt text](documentation/profile.png)
+#### Hasil Postman
+![alt text](documentation/postman_profile.png)
+
 •	GET http://localhost:3000/profile/1 : menampilkan detail profile (data anda sendiri) dengan nim=F1D022150
-
-
+#### Hasil Website
+![alt text](documentation/profileF1D022150.png)
+#### Hasil Postman
+![alt text](documentation/postman_profileF1D022150.png)
 
