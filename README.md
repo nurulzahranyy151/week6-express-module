@@ -32,7 +32,7 @@
  
 📥 Form Input                : Input angka yang ingin dihitung melalui form lalu hasil ditampilkan di browser.
 
-✨ Interface                 : Tampilan sederhana agar lebih menarik, tidak hanya teks seperti CMD.
+✨ Interface                 : Pada folder public, terdapat css sebagai fitur tambahan untuk membuat tampilan sederhana berupa warna font serta layout website agar lebih menarik, tidak hanya teks seperti CMD.
 
 ### 2.3 Hasil Persiapan Environment
 1. Membuat folder expressModule_F1D022150
